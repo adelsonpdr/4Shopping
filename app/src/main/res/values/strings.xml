@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">4Shopping</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuário</string>
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_security_question">Nome da sua primeira professora?</string>
+    <string name="prompt_new_password">Nova Senha</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_change_password">Alterar Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_up">Cadastrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Usuário não cadastrado</string>
+    <string name="error_invalid_password">Senha muito pequena</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Permissão de acesso aos contatos necessária."
+    </string>
+    <string name="title_activity_group__list">Group_List</string>
+    <string name="title_activity_hghj">hghj</string>
+    <string name="title_activity_hfgjhjk">hfgjhjk</string>
+</resources>
