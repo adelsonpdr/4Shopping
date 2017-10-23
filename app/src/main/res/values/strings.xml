@@ -2,9 +2,11 @@
     <string name="app_name">4Shopping</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Usuário</string>
+    <string name="prompt_email">Email</string>
     <string name="prompt_name">Nome</string>
     <string name="prompt_security_question">Nome da sua primeira professora?</string>
+    <string name="prompt_reset_password">Insira seu email para redefinição de senha!</string>
+    <string name="prompt_sign_up">Cadastre-se</string>
     <string name="prompt_new_password">Nova Senha</string>
     <string name="prompt_password">Senha</string>
     <string name="action_change_password">Alterar Senha</string>

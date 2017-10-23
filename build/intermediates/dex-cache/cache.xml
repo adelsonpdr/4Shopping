@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Adelson\AndroidStudioProjects\4Shopping\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/facom/AndroidStudioProjects/4Shopping/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
+        revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Adelson\AndroidStudioProjects\4Shopping\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fd6b8aea1d063b7576d4ce5a853849cfd8bc6772\classes.dex" />
+        <dex dex="/home/facom/AndroidStudioProjects/4Shopping/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d08e8c2841984603476b6929762d17d1f719a464/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adelson\AndroidStudioProjects\4Shopping\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/facom/AndroidStudioProjects/4Shopping/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="51e3438f8f92e7461c3be3e4d5c6b2a23105a145">
-        <dex dex="C:\Users\Adelson\AndroidStudioProjects\4Shopping\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b0c09cec7ec0b09021a2fe1bafb85e771da8db20\classes.dex" />
+        revision="26.0.2"
+        sha1="c24920a523d44054e0500ed2517faa310f7ba693">
+        <dex dex="/home/facom/AndroidStudioProjects/4Shopping/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a604c98fe6fd92e8c5a3f415be9a09a10f639a17/classes.dex" />
     </item>
 
 </items>

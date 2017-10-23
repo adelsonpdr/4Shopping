@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#ffffff"
-    tools:context="com.example.adelson.a4shopping.GroupList">
+    tools:context="com.example.adelson_pc.a4shopping.GroupList">
 
 
 

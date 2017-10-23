@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.adelson.a4shopping.GroupList"
+    tools:context="com.example.adelson_pc.a4shopping.GroupList"
     tools:showIn="@layout/activity_group_list">
 
 </android.support.constraint.ConstraintLayout>
