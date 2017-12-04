@@ -9,7 +9,14 @@
     <string name="prompt_sign_up">Cadastre-se</string>
     <string name="prompt_new_password">Nova Senha</string>
     <string name="prompt_password">Senha</string>
+    <string name="prompt_item_name">Nome Item</string>
+    <string name="prompt_item_description">Descrição Item</string>
+    <string name="prompt_list_name">Nome Lista</string>
+    <string name="prompt_member_email">Email Membro</string>
+    <string name="action_add_item">Salvar Item</string>
     <string name="action_change_password">Alterar Senha</string>
+    <string name="action_edit_item">Salvar Alteração</string>
+    <string name="action_list_creation">Continuar</string>
     <string name="action_sign_in">Entrar</string>
     <string name="action_sign_up">Cadastrar</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -17,9 +24,13 @@
     <string name="error_invalid_password">Senha muito pequena</string>
     <string name="error_incorrect_password">Senha incorreta</string>
     <string name="error_field_required">Campo obrigatório</string>
-    <string name="permission_rationale">"Permissão de acesso aos contatos necessária."
-    </string>
+    <string name="permission_rationale">"Permissão de acesso aos contatos necessária."</string>
+    <string name="slogan">Seu app de lista de compras compartilhadas!</string>
     <string name="title_activity_group__list">Group_List</string>
-    <string name="title_activity_hghj">hghj</string>
-    <string name="title_activity_hfgjhjk">hfgjhjk</string>
+    <string name="title_activity_lists">Lists</string>
+    <string name="title_create_new_list">Nova Lista</string>
+    <string name="title_sign_up">Cadastro</string>
+    <string name="title_change_password">Trocar Senha</string>
+    <string name="title_content_list">Lista X</string>
+    <string name="welcome">Bem-vindo!</string>
 </resources>
