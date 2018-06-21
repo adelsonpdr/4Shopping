@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adelson_pc.a4shopping.ItemDetails">
+
+    <ScrollView
+        android:id="@+id/group_list"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:id="@+id/group_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="310dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_detail"
+                android:layout_marginRight="@dimen/item_detail"
+                android:text="@string/prompt_item_name" />
+
+            <TextView
+                android:id="@+id/name_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_detail"
+                android:layout_marginRight="@dimen/item_detail"
+                android:inputType="textAutoComplete"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_detail"
+                android:layout_marginRight="@dimen/item_detail"
+                android:text="@string/prompt_item_description" />
+
+            <TextView
+                android:id="@+id/description_item"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginLeft="@dimen/item_detail"
+                android:layout_marginRight="@dimen/item_detail"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:singleLine="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

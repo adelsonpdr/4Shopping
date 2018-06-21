@@ -1,0 +1,122 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adelson_pc.a4shopping.Form2">
+
+    <ScrollView
+        android:id="@+id/passwordChange_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Energia"
+                android:layout_gravity="center"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/diesel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diesel" />
+                <RadioButton
+                    android:id="@+id/eletrica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elétrica" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/eExclusiva"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Elétrica Exclusiva"
+                android:layout_gravity="center"
+                android:visibility="invisible"/>
+
+            <RadioGroup
+                android:visibility="invisible"
+                android:id="@+id/radioEletrica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:id="@+id/sim2"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/nao2"
+                    android:layout_height="wrap_content"
+                    android:text="Não" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/obs2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Observação"
+                android:layout_gravity="center"
+                android:visibility="invisible"/>
+
+            <EditText
+                android:id="@+id/obsBox2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="@dimen/item_detail"
+                android:layout_marginRight="@dimen/item_detail"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/goTo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_forward"
+        app:backgroundTint="@color/button"
+        app:fabSize="normal" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backTo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_back"
+        app:backgroundTint="@color/button"
+        app:fabSize="normal" />
+
+</android.support.design.widget.CoordinatorLayout>
